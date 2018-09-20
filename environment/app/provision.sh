@@ -22,5 +22,5 @@ sudo npm install pm2 -g
 
 sudo rm /etc/nginx/site-available/default
 # set up nginx reverse proxy
-sudo ln -s ~/environment/app/default /etc/nginx/site-available/default
+sudo ln -s /home/ubuntu/environment/app/default /etc/nginx/site-available/default
 sudo nginx -s reload
